@@ -1,6 +1,12 @@
-	/* Add a black background color to the top navigation */
+    body{
+        background-image: url('../images/car.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: fixed;
+    }
+    /* Add a black background color to the top navigation */
     .topnav {
-        background-color: #32527B;
+        float: right;
         overflow: hidden;
       }
       
@@ -18,8 +24,9 @@
       
       /* Change the color of links on hover */
       .topnav a:hover {
-        background-color: #ddd;
-        color: black;
+        
+        color: white;
+        text-decoration: underline;
       }
       
       
@@ -30,8 +37,3 @@
         color: black;
       }
       
-      p{
-          font-size: 50px;
-          font-family: Bahnschrift Condensed;
-          line-height: 1%;
-      }
